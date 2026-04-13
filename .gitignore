@@ -11,3 +11,5 @@
 **/.ipynb_checkpoints/
 **/uv.lock
 *.ipynb
+.python-version
+pyproject.toml

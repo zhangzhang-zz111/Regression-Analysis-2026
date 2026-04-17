@@ -27,3 +27,4 @@ pyproject.toml
 # Jupyter Notebook files (recursive)
 **/*.ipynb
 >>>>>>> upstream/main
+myenv/

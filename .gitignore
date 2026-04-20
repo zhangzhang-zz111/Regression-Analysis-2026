@@ -1,29 +1,28 @@
-# macOS specific files
+# macOS
 .DS_Store
 
-# Common file types to ignore
+# Python virtual env
+.venv/
+venv/
+env/
+.env/
+myenv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# Data / outputs
+*.npz
 *.pdf
 
-# Python virtual environment folders
-**/.venv/
-**/venv/
-**/env/
-**/.env/
+# uv
+uv.lock
 
-# Python caches and runtime files
-**/__pycache__/
-
-# Jupyter Notebook checkpoints folder
-**/.ipynb_checkpoints/
-
-# uv lock file
-**/uv.lock
-<<<<<<< HEAD
-*.ipynb
+# project
 .python-version
 pyproject.toml
-=======
-
-# Jupyter Notebook files (recursive)
-**/*.ipynb
->>>>>>> upstream/main

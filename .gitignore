@@ -26,3 +26,8 @@ uv.lock
 # project
 .python-version
 pyproject.toml
+# 忽略结果文件（作业要求）
+**/results/
+
+# 忽略数据文件（作业要求）
+**/data/*.csv
